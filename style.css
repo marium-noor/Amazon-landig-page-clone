@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* box1 */
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url(amaz.logo.png);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 1px solid white;
+}
+ /* box2 */
+
+.add-first{
+    color: #cccccc;
+    margin-left: 15px;
+    font-size: 0.85rem;
+}
+.add-second{
+    margin-left: 3px;
+    font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+
+}
+
+/* box3 */
+
+.nav-search {
+    display: flex;
+    background-color: pink;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon {
+   width: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem; 
+   background-color: #feb868;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   color: black;
+}
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/* box4 */
+
+.span {
+    font-size: 0.75rem;
+}
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box6 */
+
+.nav-cart i {
+    font-size: 31px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* PANEL */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 15px
+}
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+.hero-section {
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* SHOP SECTION */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #EBE9DC;
+}
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box1-img {
+    background-image: url(box1.jpg);
+    background-size: cover;
+    display: flex;
+    height: 303px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box2-img {
+    background-image: url(box2.jpg);
+    background-size: cover;
+    display: flex;
+    height: 303px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box3-img {
+    background-image: url(box3.jpg);
+    background-size: cover;
+    display: flex;
+    height: 303px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box4-img {
+    background-image: url(box4.jpg);
+    background-size: cover;
+    display: flex;
+    height: 303px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box5-img {
+    background-image: url(box5.jpg);
+    background-size: cover;
+    display: flex;
+    height: 303px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box6-img {
+    background-image: url(box6.jpg);
+    background-size: cover;
+    display: flex;
+    height: 303px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box7-img {
+    background-image: url(box7.jpg);
+    background-size: cover;
+    display: flex;
+    height: 303px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box7-img {
+    background-image: url(box7.jpg);
+    background-size: cover;
+    display: flex;
+    height: 303px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box8-img {
+    background-image: url(box8.jpg);
+    background-size: cover;
+    display: flex;
+    height: 303px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* for optional signin option */
+
+.opt-signin {
+    text-align: center;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.butt {
+    text-align: center;
+    background-color: rgb(255, 187, 0);
+    color: black;
+    width: 230px;
+    height: 30px;
+    border: none;
+    font-size: large;
+    border-radius: 7px;
+}
+
+p {
+    font-size: medium;
+}
+/* FOR FOOTER */
+
+footer {
+    background-color: #232f3e;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ffffff;
+}
+
+
+/* for responsiveness */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-logo, .nav-address, .nav-search, .nav-signin, .nav-return, .nav-cart {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .search-select, .search-input, .search-icon {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .nav-search {
+        width: auto;
+    }
+}
+
+/* Responsive Styles for Shop Section */
+@media only screen and (max-width: 768px) {
+    .shop-section {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+    }
+}
+
+/* Responsive Styles for Optional Signin Section */
+@media only screen and (max-width: 768px) {
+    .opt-signin {
+        height: auto;
+    }
+
+    .butt {
+        width: 100%;
+    }
+}
+
+/* Responsive Styles for Footer */
+@media only screen and (max-width: 768px) {
+    footer {
+        padding: 20px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+}
+
+
